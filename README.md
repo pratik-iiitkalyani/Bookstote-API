@@ -5,11 +5,13 @@ I have used NodeJs, ExpressJs and MongoDB for Creating the API and used POSTMAN 
 # setup the project
 npm init
 
-********* Install dependencies*************
+
+# install dependencies
+
 #install Express
 npm install express --save
 
-# install nodemon
+#install nodemon(watches your file and restart the server)
 npm install -g nodemon
 
 #install body-parser
