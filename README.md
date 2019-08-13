@@ -8,15 +8,15 @@ npm init
 
 # install dependencies
 
-#install Express
+#install Express->
 npm install express --save
 
-#install nodemon(watches your file and restart the server)
+#install nodemon(watches your file and restart the server)->
 npm install -g nodemon
 
-#install body-parser
+#install body-parser->
 npm install body-parser --save
 
-#install mongoose
+#install mongoose->
 npm install mongoose --save
 
