@@ -10,7 +10,6 @@ var BookstoreSchema =  new Schema({
 });
 
 // export bookstore model
-
 const Bookstore = module.exports = Mongoose.model('bookstore', BookstoreSchema);
 
 module.exports.get = function (callback, limit) {

@@ -1,8 +1,7 @@
-s// bookstoreController.js
+// bookstoreController.js
 
 // Import bookstore model
 const Bookstore = require('../models/book');
-
 
 // Handle create contact actions
 exports.create = function(data) {
@@ -14,8 +13,6 @@ exports.create = function(data) {
     });
 
 }
-
-
 
 // Handle index action
 exports.getAllUser = function(data) {
@@ -31,8 +28,6 @@ exports.getAllUser = function(data) {
         });
     });
 };
-// bookstore.name = req.body.name ? req.body.name : bookstore.name;
-// bookstore.author = req.body.author;
 
 // Handle view contact info
 exports.getAllUserById = function(params) {
@@ -64,10 +59,7 @@ exports.updateById = function(params, data) {
 
         });
     });
-    // save the contact and check for error
 }
-// bookstore.name = req.body.name ? req.body.name : contact.name;
-// bookstore.author = req.body.author
 
 
 // Handle delete operation
